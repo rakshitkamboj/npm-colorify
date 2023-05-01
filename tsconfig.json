@@ -1,0 +1,12 @@
+{
+
+    "compilerOptions": {
+        "target": "ES5", //build code will be converted into es5
+        "module": "CommonJS", //if we want to use the lib in nodejs also
+        "declaration": true, //will get the type defination
+        "outDir": "./lib",
+        "strict": true
+    },
+    "include": ["src"], //code will be comipled from this folder
+    "exclude": ["node_modules","**/__test__"]
+}

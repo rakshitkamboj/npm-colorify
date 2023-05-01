@@ -1,0 +1,30 @@
+{
+  "name": "npm-colorify",
+  "version": "1.0.0",
+  "description": "library to colorify your console logs",
+  "main": "lib/index.js",
+  "types":"lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare":"npm run build" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakshitkamboj/npm-colorify.git"
+  },
+  "keywords": [
+    "colorify",
+    "colors",
+    "styling"
+  ],
+  "author": "Rakshitdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rakshitkamboj/npm-colorify/issues"
+  },
+  "homepage": "https://github.com/rakshitkamboj/npm-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files":["lib/**/*"]
+}
